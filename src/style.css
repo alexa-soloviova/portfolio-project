@@ -11,6 +11,7 @@ body {
 
 p {
     font-size: 16px;
+    font-weight: solid;
 }
 
 .container h2 {
@@ -31,7 +32,6 @@ p {
 }
 .hero p {
     font-size: 36px;
-    font-weight: bold;
     margin: 0;
     color: #272142;
 }
@@ -74,22 +74,35 @@ p {
     padding: 120px 60px;
 }
 
-.about-section{
+.content-container {
     padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
     font-size: 64px;
     line-height: 80px;
     font-family: var(--heading-font-family);
 }
 
-.about-section h2{
+.content h2{
     font-size: 18px;
     font-family: var(--default-font-family);
     font-weight: bold;
 }
 
-.about-section-content {
+.content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--default-font-family);
+    font-weight: bold;
+    margin: 20px 0 0;
+}
+
+.content p {
+    font-size: 14px;
+    
+}
+
+.content {
     margin: 30px;
 }
 @media(max-width: 900px){
@@ -111,7 +124,7 @@ p {
         text-align: center;
     }
 
-    .about-section {
+    .content-container {
         text-align: center;
         padding: 0;
     }
